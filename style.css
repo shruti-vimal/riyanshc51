@@ -1,0 +1,103 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+}
+
+/*
+css:- color 
+
+number system :-
+
+1. decimal number (0-9) 10 base 
+example :- (56)
+
+      6*10^0 + 5* 10^1 =
+
+     6   + 50= 56
+
+ Q.1  Question decimal=(55)  binary = ? 
+          2   55 
+              27    1
+              13    1
+              6     1
+              3     0
+              1     1
+answer 110111
+
+Question 2 binary 110111  = (de3cimal )? 
+
+1*2^0 + 1*2^1 + 1*2^2 + 0 *2^3 + 1*2^4 + 1*2^5
+1     +  2     + 4     + 0     +  16    + 32   = 55 decimal 
+
+Q. 3 255 decimal = hexadecimal convert ( 16 base)
+
+  16    255
+        15  15
+  answeder 15 15 
+  answer FF
+  0-9 digit A=10,B=11,C=12 ,d=13,e=14, f=15      
+
+
+  Q.4  hexadecimal FF ---- decimal 10 base 
+  FF
+  15*16^0 + 15*16^1
+  15*1   +  15*16
+  15     +  240    =255 (decimal)     
+
+  
+  Q.5  128 decimal = (hexa)?
+
+  16  128 
+       8   0
+   answer =    80
+ 
+    Q.6  (255) decimal to octal (8)
+      8   255 
+          31   7
+          3    7
+     
+          answer  377 octal 
+     
+     Q.7  377 octal   to decimal (?)
+     7*8^0 +  7*8^1  + 3*8^2    
+     7      +  56    + 192    = 255(decimal)
+
+
+2. octal (0-7) 8 base
+3. binary (0,1) 2 base
+4. hexA DECIMAL ( 0-9) (10-15  A 10.B11 .....-E) 16 base
+*/
